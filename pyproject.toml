@@ -1,0 +1,14 @@
+[project]
+name = "narl-fhwn"
+version = "0.1.0"
+description = "Neural Architectures and Representation Learning - FH Wiener Neustadt"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "ipykernel>=7.2.0",
+    "jupyter>=1.1.1",
+    "matplotlib>=3.10.8",
+    "scikit-learn>=1.8.0",
+    "torch>=2.10.0",
+    "torchvision>=0.25.0",
+]

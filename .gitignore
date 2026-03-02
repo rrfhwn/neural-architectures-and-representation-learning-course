@@ -1,0 +1,36 @@
+### macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+### Editor / IDE
+.vscode/
+.idea/
+
+### Jupyter
+**/.ipynb_checkpoints/
+**/.jupyter/
+
+### Python
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+### Packaging / builds
+build/
+dist/
+*.egg-info/
+
+### Virtualenvs / local environments
+.venv/
+venv/
+.python-version
+
+### Data (local / generated; do not commit)
+data/
+
+### Common local secrets (should never be committed)
+.env
